@@ -1,8 +1,8 @@
-import MainPage from "./MainPage";
-import ProjectPage from"./ProjectPage";
+import MainPage from "./pageFiles/MainPage";
+import ProjectPage from "./pageFiles/ProjectPage";
 import {HashRouter, Route, Routes} from 'react-router-dom';
 
-export default function App() {
+function App() {
   return (
     <HashRouter>
       <Routes>
@@ -10,5 +10,7 @@ export default function App() {
         <Route path='/projects' element={<ProjectPage />}></Route>
       </Routes>
     </HashRouter>
-  )
+  );
 }
+
+export default App;

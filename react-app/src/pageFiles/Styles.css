@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.page-background {
+    background-size: cover;
+    background-position: center;
+    background-color: #D9D9D9;
+    min-height: 100vh;
+}
+
+.line {
+    border: none;
+    border-top: 2px solid #000000;
+    width: 100%;
+    margin: 0.5rem;
+    position: relative;
+}
+
+.page-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 50px;
+    align-items: center;
+    position: relative;
+    left: 25%;
+}
+
+.button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    height: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.bio-container {
+    display: flex;
+    align-items: flex-start; /* aligns top edges */
+    gap: 2rem; /* space between text and image */
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
+
+.bio {
+    width: 60%;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.text {
+    font-size: 1rem;
+}
+
+.projects {
+    width: 100%;
+}
