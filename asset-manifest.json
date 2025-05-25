@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Frost325/Frost325.github.io/static/css/main.fd337db0.css",
+    "main.js": "/Frost325/Frost325.github.io/static/js/main.6faecf32.js",
+    "index.html": "/Frost325/Frost325.github.io/index.html",
+    "main.fd337db0.css.map": "/Frost325/Frost325.github.io/static/css/main.fd337db0.css.map",
+    "main.6faecf32.js.map": "/Frost325/Frost325.github.io/static/js/main.6faecf32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd337db0.css",
+    "static/js/main.6faecf32.js"
+  ]
+}
